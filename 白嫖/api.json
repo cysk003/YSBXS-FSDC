@@ -6,7 +6,7 @@
     "sites": [
         {
             "key": "douban",
-            "name": "关注公众号:影视资源站,防失联",
+            "name": "关注:影视资源站,防失联",
             "type": 3,
             "api": "csp_DouBan",
             "quickSearch": 0,
@@ -22,46 +22,6 @@
             "quickSearch": 1,
             "filterable": 0,
             "ext": "公众号:影视资源站"
-        },
-        {
-            "key": "yqkan",
-            "name": "影视|一起",
-            "type": 3,
-            "api": "csp_YQKan",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": "公众号:影视资源站"
-        },
-        {
-            "key": "nm",
-            "name": "弹幕|农民",
-            "type": 3,
-            "api": "csp_WebNM",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": "https://v.nmvod.cn"
-        },
-        {
-            "key": "997",
-            "name": "影视|997",
-            "type": 3,
-            "api": "csp_Web608",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": "https://www.6080yy4.com"
-        },
-        {
-            "key": "aikun",
-            "name": "影视|皮皮",
-            "type": 3,
-            "api": "csp_WebAiKun",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": "http://aikun.tv"
         },
         {
             "key": "jp",
@@ -84,8 +44,50 @@
             "ext": "https://baipiaoys.com:9092#公众号:影视资源站#https://www.baipiao-ys.cc:6062"
         },
         {
+            "key": "tvyb",
+            "name": "影视|云播",
+            "type": 3,
+            "api": "csp_WebTVB",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "ext": "http://www.tvyb03.com"
+        },
+        {
+            "key": "xsj",
+            "name": "影视|视觉",
+            "type": 3,
+            "api": "csp_Web608",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "ext": "https://www.6080yy4.com"
+        },
+        {
+            "key": "yj",
+            "name": "影视|哔嘀",
+            "type": 3,
+            "api": "csp_WebYJ",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 0,
+            "playerType": 2,
+            "ext": "https://www.yjys.me#公众号:影视资源站#https://www.baipiao-ys.cc:6062"
+        },
+        {
+            "key": "eight",
+            "name": "影视|八八",
+            "type": 3,
+            "api": "csp_AppEight",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "playerType": 2,
+            "ext": "https://api.kpyun6.cn"
+        },
+        {
             "key": "AList",
-            "name": "网盘|雅雅",
+            "name": "阿里|雅雅",
             "type": 3,
             "api": "csp_AListBox",
             "searchable": 1,
@@ -117,7 +119,7 @@
         },
         {
             "key": "bili",
-            "name": "娱乐|B站",
+            "name": "休闲|B站",
             "type": 3,
             "api": "csp_Bili",
             "searchable": 1,
@@ -131,7 +133,7 @@
         },
         {
             "key": "ting",
-            "name": "听书|听书",
+            "name": "休闲|听书",
             "type": 3,
             "api": "csp_BookTing",
             "searchable": 1,
@@ -140,7 +142,7 @@
         },
         {
             "key": "music",
-            "name": "音乐|狗狗",
+            "name": "休闲|音乐",
             "type": 3,
             "api": "csp_Music",
             "searchable": 0,
@@ -151,14 +153,14 @@
             }
         },
         {
-            "key": "cofig",
-            "name": "全局|配置",
+            "key": "push_agent",
+            "name": "辅助|推送",
             "type": 3,
             "style": {
                 "type": "rect",
                 "ratio": 1.433
             },
-            "api": "csp_Config"
+            "api": "csp_Push"
         }
     ],
     "parses": [],
@@ -167,32 +169,69 @@
         {
             "name": "LZ",
             "hosts": [
-                "vip.lz",
-                "hd.lz"
+                "lz"
             ],
             "regex": [
                 "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.433333,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-                "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
+                "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+",
+                "18.5333",
+                "19.520000",
+                "18.666667",
+                "17.2",
+                "19.84"
             ]
         },
         {
             "name": "FF",
             "hosts": [
-                "vip.ffzy",
-                "hd.ffzy"
+                "ffzy"
             ],
             "regex": [
                 "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-                "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
+                "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+",
+                "25.1",
+                "18"
             ]
         },
         {
-            "name": "YQK",
+            "name": "yqk",
             "hosts": [
                 "yqk88"
             ],
             "regex": [
                 "#EXT-X-DISCONTINUITY\\r*\\n*[\\s\\S]*?#EXT-X-CUE-IN"
+            ]
+        },
+        {
+            "name": "KK",
+            "hosts": [
+                "kuaikan"
+            ],
+            "regex": [
+                "#EXT-X-DISCONTINUITY\\r*\\n*[\\s\\S]*?#EXT-X-DISCONTINUITY"
+            ]
+        },
+        {
+            "name": "SN",
+            "hosts": [
+                "suonizy"
+            ],
+            "regex": [
+                "#EXTINF.*?\\s+.*?original.*?\\.ts\\s+",
+                "15.1666",
+                "15.2666",
+                "16.333333",
+                "15.266667"
+            ]
+        },
+        {
+            "name": "BF",
+            "hosts": [
+                "bfzy"
+            ],
+            "regex": [
+                "#EXTINF.*?\\s+.*?adjump.*?\\.ts\\s+",
+                "_cef"
             ]
         }
     ]
