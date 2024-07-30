@@ -22,10 +22,9 @@
             "quickSearch": 1,
             "changeable": 0,
             "ext": {
-                "aliToken": "tvfan/token.txt",
-                "quarkCookie": "tvfan/cookie.txt",
-                "from": "4k|auto|fhd",
-                "siteUrl": "https://www.wogg.link/",
+                "Cloud-drive": "tvfan/Cloud-drive.txt",
+                "from": "4k|auto",
+                "siteUrl": "https://www.wogg.net/",
                 "danMu": "弹"
             }
         },
@@ -42,7 +41,7 @@
             "key": "短剧",
             "name": "🌈上头┃短剧",
             "type": 3,
-            "api": "csp_Djuu",
+            "api": "csp_Djtt",
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1
@@ -58,6 +57,40 @@
             "changeable": 1
         },
         {
+            "key": "Lib",
+            "name": "🌟立播┃秒播",
+            "type": 3,
+            "api": "csp_Libvio",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": {
+                "Cloud-drive": "tvfan/Cloud-drive.txt",
+                "from": "4k|auto"
+            }
+        },
+        {
+            "key": "专线",
+            "name": "🚝专线┃秒播",
+            "type": 3,
+            "api": "csp_Zx4k",
+            "timeout": 15,
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
+        },
+        {
+            "key": "小点",
+            "name": "💥小点┃多线",
+            "type": 3,
+            "api": "csp_Appxdys",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 0
+        },
+        {
             "key": "原创",
             "name": "☀原创┃不卡",
             "type": 3,
@@ -67,17 +100,6 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1
-        },
-        {
-            "key": "视觉",
-            "name": "👓视觉┃多线",
-            "type": 3,
-            "api": "csp_Xinsj",
-            "timeout": 15,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "ext": "https://www.80yy3.com/"
         },
         {
             "key": "苹果",
@@ -98,7 +120,28 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "ext": "https://czzy.top/"
+            "ext": "https://www.czys.pro/"
+        },
+        {
+            "key": "文采",
+            "name": "💮文采┃秒播",
+            "type": 3,
+            "api": "csp_Jpys",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
+        },
+        {
+            "key": "蛋蛋",
+            "name": "🍓蛋蛋┃多线",
+            "type": 3,
+            "api": "csp_Cddys",
+            "timeout": 15,
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
         },
         {
             "key": "zxzj",
@@ -117,16 +160,6 @@
             "type": 3,
             "api": "csp_Ddrk",
             "playerType": "2",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1
-        },
-        {
-            "key": "文采",
-            "name": "💮文采┃秒播",
-            "type": 3,
-            "api": "csp_Jpys",
-            "playerType": 2,
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1
@@ -154,16 +187,6 @@
             "changeable": 1
         },
         {
-            "key": "小点",
-            "name": "💥小点┃多线",
-            "type": 3,
-            "api": "csp_Xdys",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 0
-        },
-        {
             "key": "热播",
             "name": "📺热播┃多线",
             "type": 3,
@@ -185,25 +208,6 @@
             "ext": "AO7TcBkd8Iifux0Y8Qze6tVlMg=="
         },
         {
-            "key": "蛋蛋",
-            "name": "🍓蛋蛋┃多线",
-            "type": 3,
-            "api": "csp_Cddys",
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1
-        },
-        {
-            "key": "比特",
-            "name": "🍄比特┃秒播",
-            "type": 3,
-            "api": "csp_Bttwoo",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1
-        },
-        {
             "key": "南瓜",
             "name": "🎃南瓜┃多线",
             "type": 3,
@@ -213,17 +217,6 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1
-        },
-        {
-            "key": "Lib",
-            "name": "🌟立播┃不卡",
-            "type": 3,
-            "api": "csp_Libvio",
-            "timeout": 15,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "ext": "https://www.libvio.cc/"
         },
         {
             "key": "Auete",
@@ -244,7 +237,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 0,
-            "ext": "http://www.xb6v.com/"
+            "ext": "https://www.xb6v.com/"
         },
         {
             "key": "Dm84",
@@ -426,9 +419,8 @@
             "quickSearch": 1,
             "changeable": 0,
             "ext": {
-                "pan": "quark",
-                "quarkCookie": "tvfan/cookie.txt",
-                "from": "4k|auto|fhd"
+                "Cloud-drive": "tvfan/Cloud-drive.txt",
+                "from": "4k|auto"
             }
         },
         {
@@ -441,8 +433,8 @@
             "changeable": 0,
             "ext": {
                 "pan": "quark",
-                "quarkCookie": "tvfan/cookie.txt",
-                "from": "4k|auto|fhd"
+                "Cloud-drive": "tvfan/Cloud-drive.txt",
+                "from": "4k|auto"
             }
         },
         {
@@ -454,8 +446,8 @@
             "quickSearch": 1,
             "changeable": 0,
             "ext": {
-                "aliToken": "tvfan/token.txt",
-                "from": "4k|auto|fhd"
+                "Cloud-drive": "tvfan/Cloud-drive.txt",
+                "from": "4k|auto"
             }
         },
         {
@@ -467,8 +459,8 @@
             "quickSearch": 1,
             "changeable": 0,
             "ext": {
-                "aliToken": "tvfan/token.txt",
-                "from": "4k|auto|fhd"
+                "Cloud-drive": "tvfan/Cloud-drive.txt",
+                "from": "4k|auto"
             }
         },
         {
@@ -480,8 +472,8 @@
             "quickSearch": 1,
             "changeable": 0,
             "ext": {
-                "aliToken": "tvfan/token.txt",
-                "from": "4k|auto|fhd"
+                "Cloud-drive": "tvfan/Cloud-drive.txt",
+                "from": "4k|auto"
             }
         },
         {
@@ -493,8 +485,8 @@
             "quickSearch": 1,
             "changeable": 0,
             "ext": {
-                "aliToken": "tvfan/token.txt",
-                "from": "4k|auto|fhd"
+                "Cloud-drive": "tvfan/Cloud-drive.txt",
+                "from": "4k|auto"
             }
         },
         {
@@ -505,9 +497,8 @@
             "searchable": 0,
             "quickSearch": 0,
             "ext": {
-                "aliToken": "tvfan/token.txt",
-                "quarkCookie": "tvfan/cookie.txt",
-                "from": "4k|auto|fhd"
+                "Cloud-drive": "tvfan/Cloud-drive.txt",
+                "from": "4k|auto"
             }
         },
         {
@@ -609,15 +600,6 @@
             "ext": "./json/高中课堂.json"
         },
         {
-            "key": "Nbys",
-            "name": "🛫泥巴┃飞",
-            "type": 3,
-            "api": "csp_NiNi",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1
-        },
-        {
             "key": "fan",
             "name": "导航 www.饭太硬.com",
             "type": 3,
@@ -636,57 +618,13 @@
             "changeable": 0
         }
     ],
-    "doh": [
-        {
-            "name": "Google",
-            "url": "https://dns.google/dns-query",
-            "ips": [
-                "8.8.4.4",
-                "8.8.8.8"
-            ]
-        },
-        {
-            "name": "Cloudflare",
-            "url": "https://cloudflare-dns.com/dns-query",
-            "ips": [
-                "1.1.1.1",
-                "1.0.0.1",
-                "2606:4700:4700::1111",
-                "2606:4700:4700::1001"
-            ]
-        },
-        {
-            "name": "AdGuard",
-            "url": "https://dns.adguard.com/dns-query",
-            "ips": [
-                "94.140.14.140",
-                "94.140.14.141"
-            ]
-        },
-        {
-            "name": "DNSWatch",
-            "url": "https://resolver2.dns.watch/dns-query",
-            "ips": [
-                "84.200.69.80",
-                "84.200.70.40"
-            ]
-        },
-        {
-            "name": "Quad9",
-            "url": "https://dns.quad9.net/dns-quer",
-            "ips": [
-                "9.9.9.9",
-                "149.112.112.112"
-            ]
-        }
-    ],
     "logo": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1716545739254/fc1b89e152cd4aa28d295107cb6c56c9.gif",
     "lives": [
         {
             "name": "live",
             "type": 0,
             "url": "./lives/live.txt",
-            "epg": ""
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
         },
         {
             "name": "XIUTAN",
